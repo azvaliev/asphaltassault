@@ -52,7 +52,19 @@ body {
     width:100%;
     position:absolute;
 }
+.map_col {
+  margin-top:52vw;
+}
 
 * {
   font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .hours {
+    margin-top: 7vw;
+  }
+  .map_col {
+    margin-top: 7vw;
+  }
 }
