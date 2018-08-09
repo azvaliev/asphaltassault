@@ -1,0 +1,42 @@
+body {
+  background-image: url('img/graffiti.jpg');
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.location_details, .hours_details{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.main_housing {
+  height: auto;
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
+  margin-top: 4.5vw;
+  width: 75vw;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url('img/8253.jpg');
+  background-color: hsla(0,0%,100%,0.1);
+  background-blend-mode: overlay;
+  background-size: contain;
+  background-repeat: no-repeat repeat;
+}
+.nav {
+  margin-top: -4.5vw;
+  margin-left: -12.5vw;
+  margin-right: -12.5vw;
+}
+.title {
+  color: white;
+  text-align: center;
+  margin-top: 50vh;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+}
+.location, .hours {
+  color: white;
+  margin-top: 50vw;
+}
