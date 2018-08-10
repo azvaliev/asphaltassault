@@ -1,5 +1,6 @@
 body {
-  background-image: url('img/graffiti.jpg');
+  background-image: url('img/graff.jpg');
+  background-repeat: repeat;
   padding: 0;
   margin: 0;
   min-height: 100%;
@@ -17,7 +18,7 @@ body {
   top: 0;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: url('img/transp.png');
+  background-image: url('img/back_1.png');
   background-color: hsla(0,0%,100%,0.1);
   background-blend-mode: overlay;
   background-size: contain;
@@ -60,7 +61,7 @@ body {
     position:absolute;
 }
 .map_col {
-  margin-top:32vw;
+  margin-top:28vw;
 }
 .about_us_title {
   font-size: 2vw;
@@ -73,6 +74,8 @@ body {
 .about_us {
   text-align:center;
   font-size:1.2vw;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 * {
@@ -86,4 +89,9 @@ body {
   .map_col {
     margin-top: 7vw;
   }
+}
+.day {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  margin-top: 0.4vw;
 }
