@@ -68,7 +68,8 @@
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <a href="tel:1-509-946-4224">Call us: (509)946-4224</a>
+            <a href="tel:1-509-946-4224">call us: (509)946-4224</a>
+            <button style="margin-left:1vw;"type="button" class="btn btn-primary" onclick="location.href='https://goo.gl/maps/to3MFXt8Tkq';">get directions!</button>
           </form>
         </div>
       </nav>
@@ -168,6 +169,10 @@
 
     </div>
     <script>
+      var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
+      if(iOS == true) {
+
+      }
       day = new Date().getDay();
       switch (day) {
           case 0:
