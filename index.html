@@ -72,7 +72,7 @@
           <form class="form-inline my-2 my-lg-0">
             <a href="tel:1-509-946-4224" class="item">call us: (509)946-4224</a>
             <a class="btn btn-primary" style="margin-left:1vw;" href="#" role="button" id="direct">
-               
+
               <h5 class="button_stuff">get directions!</h5></a>
           </form>
         </div>
@@ -193,40 +193,62 @@
       }
 
       day = new Date().getDay();
+      hour = new Date().getHours();
       switch (day) {
           case 0:
               text = "open till 7 today";
+              if(hour < 11) {
+                text = "opening at 11"
+              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("sunday").style.fontWeight = "700";
               break;
           case 1:
               text = "closed today today";
+              if(hour < 11) {
+                text = "open at 11 tommorow"
+              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("monday").style.fontWeight = "700";
               break;
           case 2:
               text = "open till 7 today";
+              if(hour < 11) {
+                text = "opening at 11"
+              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("tuesday").style.fontWeight = "700";
               break;
           case 3:
               text = "open till 7 today";
+              if(hour < 11) {
+                text = "opening at 11"
+              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("wednesday").style.fontWeight = "700";
               break;
           case 4:
               text = "open till 7 today";
+              if(hour < 11) {
+                text = "opening at 11"
+              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("thursday").style.fontWeight = "700";
               break;
           case 5:
               text = "open till 8 today";
+              if(hour < 11) {
+                text = "opening at 11"
+              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("friday").style.fontWeight = "900";
               document.getElementById("friday").style.color = '#007bff';
               break;
           case 6:
               text = "open till 8 today";
+              if(hour < 11) {
+                text = "opening at 11"
+              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("saturday").style.fontWeight = "700";
       }
