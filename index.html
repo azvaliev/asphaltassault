@@ -69,7 +69,7 @@
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <a href="tel:1-509-946-4224">call us: (509)946-4224</a>
-            <button style="margin-left:1vw;"type="button" class="btn btn-primary" onclick="location.href='https://goo.gl/maps/to3MFXt8Tkq';">get directions!</button>
+            <a class="btn btn-primary" style="margin-left:1vw;" href="#" role="button" id="direct">get directions!</a>
           </form>
         </div>
       </nav>
@@ -171,8 +171,12 @@
     <script>
       var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
       if(iOS == true) {
-
+        document.getElementById("direct").href="https://maps.apple.com/?address=480%20Williams%20Blvd,%20Richland,%20WA%20%2099354,%20United%20States&auid=2335075082179598874&ll=46.286049,-119.279208&lsp=9902&q=Asphalt%20Assualt&_ext=ChkKBQgEEOIBCgQIBRADCgQIBhAWCgQIChAAEiQpxx2ADwokR0AxDkryB0nSXcA5RfOlazAlR0BBaFqtDXTRXcA%3D&t=m";
       }
+      else {
+        document.getElementById("direct").href="https://goo.gl/maps/to3MFXt8Tkq";
+      }
+
       day = new Date().getDay();
       switch (day) {
           case 0:
