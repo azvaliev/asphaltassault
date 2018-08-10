@@ -34,9 +34,16 @@ body {
   font-style: italic;
   font-family: 'Roboto', sans-serif;
 }
+.subtitle, .subtitle_date {
+  color: white;
+  text-align: center;
+  margin-top: 1vw;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+}
 .location, .hours, .about{
   color: white;
-  margin-top: 50vw;
+  margin-top: 30vw;
 }
 
 .map-responsive{
@@ -53,7 +60,14 @@ body {
     position:absolute;
 }
 .map_col {
-  margin-top:52vw;
+  margin-top:32vw;
+}
+.about_us_title {
+  font-size: 2vw;
+}
+.about_us {
+  text-align:center;
+  font-size:1.2vw;
 }
 
 * {
