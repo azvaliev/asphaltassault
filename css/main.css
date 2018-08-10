@@ -87,11 +87,20 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/*
+
+wake me up when september ends
+
+*/
+
 @media only screen and (max-width: 600px) {
   .hours {
     margin-top: 7vw;
   }
   .map_col {
     margin-top: 7vw;
+  }
+  .item {
+    font-size: 3vw;
   }
 }
