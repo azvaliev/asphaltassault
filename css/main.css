@@ -24,10 +24,10 @@ body {
   background-size: contain;
   background-repeat: no-repeat repeat;
 }
-.nav {
+/* .nav {
   margin-left: -12.5vw;
   margin-right: -12.5vw;
-}
+} */
 .title {
   color: white;
   text-align: center;
