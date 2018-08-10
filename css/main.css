@@ -24,10 +24,6 @@ body {
   background-size: contain;
   background-repeat: no-repeat repeat;
 }
-/* .nav {
-  margin-left: -12.5vw;
-  margin-right: -12.5vw;
-} */
 .title {
   color: white;
   text-align: center;
@@ -71,8 +67,21 @@ body {
   color: white;
   font-size: 2vw;
 }
+.instagram_follow {
+  margin-bottom:3vw;
+  margin-left:25%;
+  margin-right:25%;
+}
+
+.fill-card {
+position: absolute;
+top: 0; left: 0;
+height: 100%; width: 100%;
+}
+
 .about_us {
   text-align:center;
+  margin-top: -1vw;
   font-size:1.2vw;
   margin-left: 5%;
   margin-right: 5%;
@@ -87,13 +96,20 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.invis {
+   visibility: hidden; 
+}
+
+.location_hours {
+  margin-bottom:5vw; 
+}
 /*
 
 wake me up when september ends
 
 */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1080px) {
   .hours {
     margin-top: 7vw;
   }
@@ -101,6 +117,133 @@ wake me up when september ends
     margin-top: 7vw;
   }
   .item {
-    font-size: 3vw;
+    font-size: 5vw;
   }
+
+  .button_stuff {
+    font-size: 4vw;
+  }
+  .title_main {
+    font-size: 4.3vw;
+  }
+  .oof_icon {
+    font-size: 4.5vw;
+  }
+  
+  /* first section */
+  
+    .title {
+    color: white;
+    text-align: center;
+    margin-top: 20vh;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-size: 7vw;
+  }
+  .subtitle, .subtitle_date {
+    color: white;
+    text-align: center;
+    margin-top: 2vw;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4.2vw;
+  }
+  
+  /* end of first section */
+  
+  
+  /* about us section */
+  
+  .about_us_title {
+    font-size: 4.5vw;
+  }
+  
+  .invis {
+    visibility: visible;
+  }
+  
+  .about_us {
+    text-align:center;
+    font-size:3.7vw;
+    margin-top: 0vw;
+    margin-left: -5%;
+    margin-right: -5%;
+  }
+  
+  /* end of about us */
+  
+  /* social section */
+  
+  .social_title {
+    text-align: center;
+    color: white;
+    font-size: 4.5vw;
+  }
+  .instagram_follow {
+    margin-bottom:3vw;
+    margin-left:0%;
+    margin-right:0%;
+  }
+  
+  .card-title, .instagram_link {
+    font-size:2.5vw;
+  }
+  
+  .instagram_link_b {
+    font-size:2.8vw;
+  }
+  
+  .instagram_row {
+    margin-left:-15%;
+    margin-right:-15%;
+  }
+  
+  .card-link {
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%; width: 100%;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
+  /* end of social */
+  
+  
+  /* location & hours */
+  
+  .location_hours {
+    
+    margin-top:20vh;
+  }
+  .location_title, .hours_title {
+    font-size: 4.5vw;
+  }
+  .invis_2 {
+    visibility: visible;
+  }
+  
+  .location_title_details, .day {
+    font-size: 3.7vw;
+  }
+  
+  /* end of location & hours */
+  
+  
+  
+  
+  .main_housing {
+  height: auto;
+  margin-left: 7.5vw;
+  margin-right: 7.5vw;
+  width: 85vw;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url('img/back_1.png');
+  background-color: hsla(0,0%,100%,0.1);
+  background-blend-mode: overlay;
+  background-size: contain;
+  background-repeat: no-repeat repeat;
+}
 }
