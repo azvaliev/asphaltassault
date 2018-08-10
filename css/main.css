@@ -97,11 +97,11 @@ height: 100%; width: 100%;
 }
 
 .invis {
-   visibility: hidden; 
+   visibility: hidden;
 }
 
 .location_hours {
-  margin-bottom:5vw; 
+  margin-bottom:5vw;
 }
 /*
 
@@ -129,9 +129,9 @@ wake me up when september ends
   .oof_icon {
     font-size: 4.5vw;
   }
-  
+
   /* first section */
-  
+
     .title {
     color: white;
     text-align: center;
@@ -148,20 +148,20 @@ wake me up when september ends
     font-family: 'Roboto', sans-serif;
     font-size: 4.2vw;
   }
-  
+
   /* end of first section */
-  
-  
+
+
   /* about us section */
-  
+
   .about_us_title {
     font-size: 4.5vw;
   }
-  
+
   .invis {
     visibility: visible;
   }
-  
+
   .about_us {
     text-align:center;
     font-size:3.7vw;
@@ -169,11 +169,11 @@ wake me up when september ends
     margin-left: -5%;
     margin-right: -5%;
   }
-  
+
   /* end of about us */
-  
+
   /* social section */
-  
+
   .social_title {
     text-align: center;
     color: white;
@@ -184,20 +184,20 @@ wake me up when september ends
     margin-left:0%;
     margin-right:0%;
   }
-  
+
   .card-title, .instagram_link {
     font-size:2.5vw;
   }
-  
+
   .instagram_link_b {
     font-size:2.8vw;
   }
-  
+
   .instagram_row {
     margin-left:-15%;
     margin-right:-15%;
   }
-  
+
   .card-link {
     position: absolute;
     top: 0; left: 0;
@@ -205,33 +205,30 @@ wake me up when september ends
     text-decoration: none;
     color: inherit;
   }
-  
-  
+
+
   /* end of social */
-  
-  
+
+
   /* location & hours */
-  
+
   .location_hours {
-    
+
     margin-top:20vh;
   }
   .location_title, .hours_title {
     font-size: 4.5vw;
   }
-  .invis_2 {
-    visibility: visible;
-  }
-  
+
   .location_title_details, .day {
     font-size: 3.7vw;
   }
-  
+
   /* end of location & hours */
-  
-  
-  
-  
+
+
+
+
   .main_housing {
   height: auto;
   margin-left: 7.5vw;
