@@ -47,33 +47,33 @@
       <!-- fixed navbar -->
 
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light nav">
-        <a class="navbar-brand title_main" href="#"><h5 class="title_main">
+        <a class="navbar-brand title_main nav_el" href="#"><h5 class="title_main nav_el">
           asphaltassault
           </h5></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon oof_icon"></span>
+        <button class="navbar-toggler nav_el" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon oof_icon nav_el"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div class="collapse navbar-collapse nav_el" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link item" href="#">home <span class="sr-only">(current)</span></a>
+            <li class="nav-item active nav_el">
+              <a class="nav-link item nav_el" href="#">home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link item" href="#about">about</a>
+            <li class="nav-item nav_el">
+              <a class="nav-link item nav_el" href="#about">about</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link item" href="#social_sec">social media</a>
+            <li class="nav-item nav_el">
+              <a class="nav-link item nav_el" href="#social_sec">social media</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link item" href="#location&hours">location & hours</a>
+            <li class="nav-item nav_el">
+              <a class="nav-link item nav_el" href="#location&hours">location & hours</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <a href="tel:1-509-946-4224" class="item">call us: (509)946-4224</a>
-            <a class="btn btn-primary" style="margin-left:1vw;" href="#" role="button" id="direct">
-
-              <h5 class="button_stuff">get directions!</h5></a>
+          <form class="form-inline my-2 my-lg-0 nav_el">
+            <a href="tel:1-509-946-4224" class="item nav_el">call us: (509)946-4224</a>
+            <a class="btn btn-primary nav_el" style="margin-left:1vw;" href="#" role="button" id="direct">
+               
+              <h5 class="button_stuff nav_el">get directions!</h5></a>
           </form>
         </div>
       </nav>
@@ -193,62 +193,40 @@
       }
 
       day = new Date().getDay();
-      hour = new Date().getHours();
       switch (day) {
           case 0:
               text = "open till 7 today";
-              if(hour < 11) {
-                text = "opening at 11"
-              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("sunday").style.fontWeight = "700";
               break;
           case 1:
               text = "closed today today";
-              if(hour < 11) {
-                text = "open at 11 tommorow"
-              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("monday").style.fontWeight = "700";
               break;
           case 2:
               text = "open till 7 today";
-              if(hour < 11) {
-                text = "opening at 11"
-              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("tuesday").style.fontWeight = "700";
               break;
           case 3:
               text = "open till 7 today";
-              if(hour < 11) {
-                text = "opening at 11"
-              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("wednesday").style.fontWeight = "700";
               break;
           case 4:
               text = "open till 7 today";
-              if(hour < 11) {
-                text = "opening at 11"
-              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("thursday").style.fontWeight = "700";
               break;
           case 5:
               text = "open till 8 today";
-              if(hour < 11) {
-                text = "opening at 11"
-              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("friday").style.fontWeight = "900";
               document.getElementById("friday").style.color = '#007bff';
               break;
           case 6:
               text = "open till 8 today";
-              if(hour < 11) {
-                text = "opening at 11"
-              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("saturday").style.fontWeight = "700";
       }
