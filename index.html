@@ -8,22 +8,6 @@
     <meta charset="UTF-8">
     <title>asphaltassault</title>
 
-    <script>
-      $(document).ready(function(){
-        $("a").on('click', function(event) {
-          if (this.hash !== "") {
-            event.preventDefault();
-            var hash = this.hash;
-            $('html, body').animate({
-              scrollTop: $(hash).offset().top
-            }, 500, function(){
-              window.location.hash = hash;
-            });
-          }
-        });
-      });
-    </script>
-
 
   </head>
   <body>
@@ -41,6 +25,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#social_sec">social media</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#location&hours">location & hours</a>
@@ -67,6 +54,52 @@
           such as shirts and hoodies. come check us out at 480 williams blvd up in richland.
         </p>
 
+      </div>
+
+      <div class="container">
+        <h3 class="social_title" id="social_sec" name="social_sec">check out our instagram</h3>
+
+        <div class="card" style="margin-bottom:3vw;margin-left:25%;margin-right:25%;">
+          <div class="row">
+            <div class="col-sm-8">
+              <div class="card-header">
+                <a class="instagram_link" href="https://www.instagram.com/asphaltassaultskateboardshop/">@asphaltassaultskateboardshop</a>
+                <h5 class="card-title">asphalt assault - local skate shop</h5>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card-body">
+                <a href="https://www.instagram.com/asphaltassaultskateboardshop/" class="btn btn-primary">follow us!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <img class="card-img-top" src="css/img/instagram_1.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">fresh decks in stock! pick yourself up one today!</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img class="card-img-top" src="css/img/instagram_3.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">thanks for stopping by chance, we hope you love the powell complete!</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img class="card-img-top" src="css/img/instagram_2.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">anthony picked up a slick new cruiser today, get yourself one too!</h5>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="container">

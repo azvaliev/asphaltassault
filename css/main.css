@@ -17,7 +17,7 @@ body {
   top: 0;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: url('img/8253.jpg');
+  background-image: url('img/transp.png');
   background-color: hsla(0,0%,100%,0.1);
   background-blend-mode: overlay;
   background-size: contain;
@@ -41,9 +41,9 @@ body {
   font-style: italic;
   font-family: 'Roboto', sans-serif;
 }
-.location, .hours, .about{
+.location, .hours, .about, .social_title{
   color: white;
-  margin-top: 30vw;
+  margin-top: 25vw;
 }
 
 .map-responsive{
@@ -63,6 +63,11 @@ body {
   margin-top:32vw;
 }
 .about_us_title {
+  font-size: 2vw;
+}
+.social_title {
+  text-align: center;
+  color: white;
   font-size: 2vw;
 }
 .about_us {
