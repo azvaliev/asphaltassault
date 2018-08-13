@@ -236,7 +236,14 @@ wake me up when september ends
 
   /* end of location & hours */
 
-
+  .left_card {
+    margin-right: 1vw;
+    margin-left: 1vw;
+  }
+  .right_card {
+    margin-right: 1vw;
+    margin-left: 1vw;
+  }
 
 
   .main_housing {
