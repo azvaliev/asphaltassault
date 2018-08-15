@@ -160,10 +160,17 @@
         document.getElementById("direct").href="https://goo.gl/maps/to3MFXt8Tkq";
       }
 
+      hour = new Date().getHours();
       day = new Date().getDay();
       switch (day) {
           case 0:
+              if (hour < 11) {
+                text = "opens at 10 today"
+              } if (hour > 19) {
+                text = "closed tommorow"
+              } else {
               text = "open till 7 today";
+              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("sunday").style.fontWeight = "700";
               break;
@@ -173,28 +180,58 @@
               document.getElementById("monday").style.fontWeight = "700";
               break;
           case 2:
+              if (hour < 11) {
+                text = "opens at 11 today"
+              } if (hour > 19) {
+                text = "opens at 11 tommorow"
+              } else {
               text = "open till 7 today";
+              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("tuesday").style.fontWeight = "700";
               break;
           case 3:
+              if (hour < 11) {
+                text = "opens at 11 today"
+              } if (hour > 19) {
+                text = "opens at 11 tommorow"
+              } else {
               text = "open till 7 today";
+              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("wednesday").style.fontWeight = "700";
               break;
           case 4:
+              if (hour < 11) {
+                text = "opens at 11 today"
+              } if (hour > 19) {
+                text = "opens at 11 tommorow"
+              } else {
               text = "open till 7 today";
+              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("thursday").style.fontWeight = "700";
               break;
           case 5:
+              if (hour < 11) {
+                text = "opens at 11 today"
+              } if (hour > 20) {
+                text = "opens at 10 tommorow"
+              } else {
               text = "open till 8 today";
+              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("friday").style.fontWeight = "900";
               document.getElementById("friday").style.color = '#007bff';
               break;
           case 6:
-              text = "open till 8 today";
+              if (hour < 11) {
+                text = "opens at 11 today"
+              } if (hour > 19) {
+                text = "opens at 10 tommorow"
+              } else {
+                text = "open till 8 today";
+              }
               document.getElementById("subtitle_date").innerHTML = text;
               document.getElementById("saturday").style.fontWeight = "700";
       }
