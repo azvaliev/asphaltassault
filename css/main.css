@@ -236,18 +236,21 @@ wake me up when september ends
 
   /* end of location & hours */
 
+
+
+
   .main_housing {
-    height: auto;
-    margin-left: 7.5vw;
-    margin-right: 7.5vw;
-    width: 85vw;
-    top: 0;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-image: url('img/back_1.png');
-    background-color: hsla(0,0%,100%,0.1);
-    background-blend-mode: overlay;
-    background-size: contain;
-    background-repeat: no-repeat repeat;
+  height: auto;
+  margin-left: 7.5vw;
+  margin-right: 7.5vw;
+  width: 85vw;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url('img/back_1.png');
+  background-color: hsla(0,0%,100%,0.1);
+  background-blend-mode: overlay;
+  background-size: contain;
+  background-repeat: no-repeat repeat;
 }
 }
